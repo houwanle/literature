@@ -1,0 +1,3 @@
+# 需要忽略的文件夹
+_book/
+node_modules/
