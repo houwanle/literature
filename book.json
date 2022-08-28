@@ -1,6 +1,61 @@
 {
   "language":"zh-hans",
   "plugins":[
-    "expandable-chapters"
-  ]
+    "expandable-chapters",
+    "splitter",
+    "-lunr",
+    "-search",
+    "search-pro",
+    "pageview-count",
+    "hide-element",
+    "code",
+    "donate",
+    "popup",
+    "anchor-navigation-ex",
+    "local-video",
+    "auto-scroll-table"
+  ],
+
+  "pluginsConfig":{
+    "hide-element": {
+      "elements": [".gitbook-link"]
+    },
+
+    "code": {
+      "copyButtons": true
+    },
+
+    "donate": {
+      "wechat": "/images/donate/wechat.JPG",
+      "alipay": "/images/donate/alipay.JPG",
+      "title": "",
+      "button": "赏",
+      "wechatText": "微信打赏",
+      "alipayText": "支付宝打赏"
+    },
+
+    "anchor-navigation-ex": {
+      "isRewritePageTitle": false,
+      "isShowTocTitleIcon": false,
+      "tocLevel1Icon": "fa fa-hand-o-right",
+      "tocLevel2Icon": "fa fa-hand-o-right",
+      "tocLevel3Icon": "fa fa-hand-o-right"
+    }
+  },
+
+  "?plugins_comment":{
+    "expandable-chapters": "目录折叠插件",
+    "splitter": "左侧目录菜单宽度调整插件",
+    "-lunr": "移除默认的搜索插件",
+    "-search": "移除自带的搜索插件",
+    "search-pro": "高级搜索（支持中文）",
+    "pageview-count": "该插件用来统计当前页面被访问次数",
+    "hide-element": "隐藏Published with GitBook字样的插件及配置",
+    "code": "为代码块添加行号和复制按钮，复制按钮可关闭;单行代码无行号。",
+    "donate": "文章底部打赏插件及配置",
+    "popup": "点击图片时，打开新的网页用来查看高清大图",
+    "anchor-navigation-ex": "Toc到侧边悬浮导航以及回到顶部按钮",
+    "local-video": "播放本地视频的插件（对视频格式有要求）",
+    "auto-scroll-table": "为避免表格过宽，在过宽的表格页面中增加滚动条。"
+  }
 }
